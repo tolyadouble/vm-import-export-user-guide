@@ -85,7 +85,7 @@ VM Import/Export enables you to import your disks as Amazon EBS snapshots\. You 
 1. Use the following [create\-volume](http://docs.aws.amazon.com/cli/latest/reference/ec2/create-volume.html) command to create a volume from the snapshot\. You must select the Availability Zone of the instance to which you'll attach the volume\.
 
    ```
-   aws ec2 create-volume --availability-zone us-east-1a -snapshot-id snap-1234567890abcdef0
+   aws ec2 create-volume --availability-zone us-east-1a --snapshot-id snap-1234567890abcdef0
    ```
 
    The following is example output:
